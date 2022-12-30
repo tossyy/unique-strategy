@@ -71,6 +71,7 @@ img {
     filter: blur(3px); }
 
 .foot-contact {
+  display: none;
   margin-bottom: 80px;
   text-align: center; }
   .foot-contact p {
