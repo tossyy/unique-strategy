@@ -67,7 +67,8 @@ img {
   .mainvisual img {
     width: 100vw;
     height: 800px;
-    object-fit: cover; }
+    object-fit: cover;
+    filter: blur(3px); }
 
 .foot-contact {
   margin-bottom: 80px;
@@ -109,8 +110,8 @@ img {
   justify-content: space-between;
   margin-bottom: 80px; }
   #home .about-us img {
+    height: 500px;
     width: 48%;
-    height: 600px;
     object-fit: cover; }
   #home .about-us .text {
     width: 48%;
@@ -147,7 +148,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold; }
 #company .profile {
   margin-bottom: 80px; }
@@ -190,8 +191,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 2rem;
+  color: #333;
+  font-size: 2.5rem;
   font-weight: bold; }
 #service .emome {
   margin-bottom: 80px; }
@@ -201,11 +202,20 @@ img {
     text-align: center; }
     #service .emome h2 img {
       height: 2.5rem; }
-  #service .emome p {
-    margin-bottom: 20px; }
-    #service .emome p span {
-      font-weight: bold;
-      font-style: italic; }
+  #service .emome .content {
+    display: flex;
+    justify-content: space-between; }
+    #service .emome .content img {
+      width: 56%;
+      object-fit: contain; }
+    #service .emome .content .text {
+      width: 40%; }
+      #service .emome .content .text p {
+        margin-bottom: 20px;
+        text-indent: 0.3rem; }
+        #service .emome .content .text p span {
+          font-weight: bold;
+          font-style: italic; }
 
 /* CONTACT
 -------------------- */
@@ -215,7 +225,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold; }
 #contact .description {
   margin-bottom: 60px; }

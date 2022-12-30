@@ -77,6 +77,7 @@ img {
         width: 100vw;
         height: 800px;
         object-fit: cover;
+        filter: blur(3px);
     }
 }
 .foot-contact {
@@ -130,8 +131,8 @@ img {
         justify-content: space-between;
         margin-bottom: 80px;
         img {
+            height: 500px;
             width: 48%;
-            height: 600px;
             object-fit: cover;
         }
         .text {
@@ -181,7 +182,7 @@ img {
             left: 50%;
             transform: translate(-50%, -50%);
             color: #fff;
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: bold;
         }
     }
@@ -242,8 +243,8 @@ img {
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            color: #fff;
-            font-size: 2rem;
+            color: #333;
+            font-size: 2.5rem;
             font-weight: bold;
         }
     }
@@ -257,11 +258,23 @@ img {
                 height: 2.5rem;
             }
         }
-        p {
-            margin-bottom: 20px;
-            span {
-                font-weight: bold;
-                font-style: italic;
+        .content {
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 56%;
+                object-fit:contain;
+            }
+            .text {
+                width: 40%;
+                p {
+                    margin-bottom: 20px;
+                    text-indent: 0.3rem;
+                    span {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                }
             }
         }
     }
@@ -277,7 +290,7 @@ img {
             left: 50%;
             transform: translate(-50%, -50%);
             color: #fff;
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: bold;
         }
     }
