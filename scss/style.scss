@@ -49,11 +49,12 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
     h1 {
         line-height: 0;
         display: block;
         img {
-            height: 5rem;
+            height: 4rem;
         }
     }
     ul {
@@ -161,10 +162,10 @@ img {
             width: 48%;
             padding-top: 40px;
             img {
-                height: 1.8rem;
-                width: 150px;
-                object-fit: cover;
+                height: 3rem;
+                object-fit: contain;
                 margin-bottom: 30px;
+                transform: translateX(-10%);
             }
             p {
                 margin-bottom: 30px;

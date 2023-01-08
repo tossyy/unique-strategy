@@ -45,12 +45,13 @@ img {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  padding: 10px 0; }
   .header h1 {
     line-height: 0;
     display: block; }
     .header h1 img {
-      height: 5rem; }
+      height: 4rem; }
   .header ul {
     display: flex;
     justify-content: flex-end; }
@@ -134,10 +135,10 @@ img {
     width: 48%;
     padding-top: 40px; }
     #home .service .text img {
-      height: 1.8rem;
-      width: 150px;
-      object-fit: cover;
-      margin-bottom: 30px; }
+      height: 3rem;
+      object-fit: contain;
+      margin-bottom: 30px;
+      transform: translateX(-10%); }
     #home .service .text p {
       margin-bottom: 30px; }
 
